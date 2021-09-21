@@ -43,13 +43,13 @@ if(isset($_POST['proses'])){
 
         class input
         {
-            public $x;
+            public $xx;
             public $y;
             public $d;
 
             public function data($x, $y, $d)
             {
-                $this->x = $x; 
+                $this->xx = $x; 
                 $this->y = $y;
                 $this->d = $d;
 
@@ -59,7 +59,7 @@ if(isset($_POST['proses'])){
     $data = new input();
     $data->data($nim,$nama,$kelas);
 
-    echo $data-> x."<br>";
+    echo $data-> xx."<br>";
     echo $data-> y."<br>";
     echo $data-> d;
 }

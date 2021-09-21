@@ -77,7 +77,7 @@ public $totalpengeluaran;
 
 
     public function pengeluaran($listrik,$kontrakan,$kendaraan){
-        echo "<b><i>Pengeluaran</i></b></br>";
+        echo "<b><i>Pengeluaran</i></b> ";
         echo "Bayar listrik : $listrik<br>";
         echo "Bayar kontrakan : $kontrakan<br>";
         echo "Cicilan Kendaraan : $kendaraan<br>";
